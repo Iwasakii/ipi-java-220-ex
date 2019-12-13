@@ -101,6 +101,7 @@ public abstract class Employe {
         if (!Objects.equals(prenom, employe.prenom)) return false;
         if (!Objects.equals(matricule, employe.matricule)) return false;
         return Objects.equals(dateEmbauche, employe.dateEmbauche);
+
     }
 
     @Override
